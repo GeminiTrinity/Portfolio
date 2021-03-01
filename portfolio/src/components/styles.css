@@ -1,0 +1,121 @@
+/* assistance for Fonts by https://tinyurl.com/43wer5hh */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+  color: #0fff00;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+html, .FullScreen, .videoFile {
+  background-color: black;
+}
+
+.container {
+  background-color: black;
+}
+
+.Home, .Project, .Contact, .About {
+  padding-top: 30px;
+  width: 100%;
+  flex: auto;
+  background-color: black;
+}
+
+/* Projects */
+.Project {
+  text-shadow: 2px 3px #000000;
+}
+
+.Header {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+img {
+   border-radius: 30px;
+   width: 100%;
+}
+
+/* Contact */
+.Contact {
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+.TopContact, .BottomContact {
+  line-height: 60px;
+}
+
+.TopContact {
+  padding-bottom: 60px;
+}
+
+.BottomContact {
+  padding-top: 60px;
+}
+
+/* About */
+.About, .Contact {
+  text-align: center;
+}
+
+.Row {
+  line-height: 30px;
+}
+
+.AboutMe {
+  font-size: 20px;
+}
+
+h4, h5 {
+  text-decoration: underline;
+}
+
+/* Home */
+.videoFile {
+  overflow: hidden;
+  width: 100%;
+}
+
+.video {
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+/* Navigation */
+.navigation {
+  background-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-width: 2px;
+}
+.nav-tabs {
+  background-color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.nav-link, .resume, .link {
+  color: #0fff00;
+}
+
+.nav-link:hover, .link:hover, .resume:hover {
+  color: #088000;
+}
+
+.nav-item.show {
+  background-color: black;
+}
